@@ -1,18 +1,41 @@
-*/{
-    margin: 0;
-    padding: 0;
+* {
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: unset;
+    padding: unset;
+    outline: unset;
+    border: unset;
     box-sizing: border-box;
 }
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: aqua;
-    color: white;
 }
 
 h1{
     font-size: 115px;
+    text-align: center;
 }
+
+ul{
+    list-style: none;
+}
+
+.menu-superior{
+    display: flex;
+    gap: 78px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 
 img{
     width: 1000px;
