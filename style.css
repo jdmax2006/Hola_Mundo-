@@ -51,11 +51,6 @@ img {
   height: auto;
 }
 
-img:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    opacity: 0.5;
-}
 
 .container{
     border: 1px solid black;
@@ -86,6 +81,8 @@ img:hover{
     opacity: 50%;
     border-radius: 66px;
     padding: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar__carta h2{
@@ -93,7 +90,7 @@ img:hover{
     text-align: center;
 }
 
-.fondo{
+.fondo__tarjetas{
      background-color: #1B5F72; 
      border-radius: 30px;
      display: flex;
@@ -116,7 +113,7 @@ img:hover{
 }
 
 .fondo__laser{
-        background-color: #04BF8A;
+    background-color: #04BF8A;
     height: 305px;
     width: 288px;
     border-radius: 30px;
