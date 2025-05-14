@@ -79,9 +79,11 @@ img:hover{
 }
 
 .navbar p{
-    color: black;;
-}
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
 
+}
 
 .boton{
     background-color: transparent;
@@ -90,6 +92,38 @@ img:hover{
     background-color: #04BF8A;
     border-radius: 50px;
     padding: 30px;
+    transition: 0.5s;
+}
+
+.boton .navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.boton:hover svg{
+    transform: scale(1.4);
+    opacity: 0.8;
+}
+
+.boton:hover svg path{
+    color: black;
+}
+
+.boton__navbar__icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton__navbar__icono svg{
+    width: 50px;
+    height: 50px;
+    fill: #0f3a46;
 }
 
 .navbar__carta{
@@ -145,3 +179,6 @@ img:hover{
     justify-content: center;
     align-items: center;
 }
+
+
+/* breakpoints */
