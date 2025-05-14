@@ -51,14 +51,25 @@ img {
   height: auto;
 }
 
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
 
 .container{
-    border: 1px solid black;
+    background-color: white;
     border-radius: 18px;
     display: flex;
     gap: 100px;
     align-items: center;
+    justify-content: center;
     padding: 20px;
+}
+
+.menu-superior li{
+    color: black;
 }
 
 .navbar{
@@ -66,6 +77,11 @@ img {
     background-color: #04BF8A;
     border-radius: 50px;
 }
+
+.navbar p{
+    color: black;;
+}
+
 
 .boton{
     background-color: transparent;
@@ -87,73 +103,45 @@ img {
 
 .navbar__carta h2{
     font-size: 128px;
-    text-align: center;
+    opacity: 30%;
+    color: black;
 }
 
 .fondo__tarjetas{
-     background-color: #1B5F72; 
-     border-radius: 30px;
-     display: flex;
-     justify-content: center;
-     gap: 20px;
-}
-
-.fondo__ropa{
     background-color: #04BF8A;
     height: 305px;
     width: 288px;
     border-radius: 30px;
 }
 
-.fondo__ropa h2{
+.fondo__tarjetas h2{
     font-size: 40px;
     text-align: center;
-    background-color: #24677A;
+    background-color: #0f3a46;
     color: #04BF8A;
+    border-radius: 30px 30px 0px 0px;
 }
 
-.fondo__laser{
-    background-color: #04BF8A;
-    height: 305px;
-    width: 288px;
-    border-radius: 30px;
+.fondo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 100px 20px;
 }
 
-.fondo__laser h2{
-    font-size: 40px;
-    text-align: center;
-    background-color: #24677A;
-    color: #04BF8A;
+.fondo__tarjetas svg path{
+    stroke: #0f3a46;
+    cursor: pointer;
 }
 
-.fondo__imprecion-3d{
-    background-color: #04BF8A;
-    height: 305px;
-    width: 288px;
-    border-radius: 30px;
+.fondo__tarjetas svg path:hover{
+    stroke: #000;
+    transition: 0.5s;
 }
 
-.fondo__imprecion-3d h2{
-    font-size: 40px;
-    text-align: center;
-    background-color: #24677A;
-    color: #04BF8A;
-}
-
-.fondo__otros{
-    background-color: #04BF8A;
-    height: 305px;
-    width: 288px;
-    border-radius: 30px;
-}
-
-.fondo__otros h2{
-    font-size: 40px;
-    text-align: center;
-    background-color: #24677A;
-    color: #04BF8A;
-}
-
-.path{
-    fill: #1B5F72;
+.fondo__tarjetas__icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
