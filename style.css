@@ -1,0 +1,184 @@
+* {
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: unset;
+    padding: unset;
+    outline: unset;
+    border: unset;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #24677A;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 100px;
+}
+
+h1{
+    font-size: 115px;
+    text-align: center;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.menu-superior{
+    display: flex;
+    gap: 78px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  height: auto;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
+
+.container{
+    background-color: white;
+    border-radius: 18px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu-superior li{
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    background-color: #04BF8A;
+    border-radius: 50px;
+}
+
+.navbar p{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.boton{
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    background-color: #04BF8A;
+    border-radius: 50px;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.boton .navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.boton:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.boton:hover svg{
+    transform: scale(1.4);
+    opacity: 0.8;
+}
+
+.boton:hover svg path{
+    color: black;
+}
+
+.boton__navbar__icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton__navbar__icono svg{
+    width: 50px;
+    height: 50px;
+    fill: #0f3a46;
+}
+
+.navbar__carta{
+    background-color: #04BF8A;
+    opacity: 50%;
+    border-radius: 66px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__carta h2{
+    font-size: 128px;
+    opacity: 30%;
+    color: black;
+}
+
+.fondo__tarjetas{
+    background-color: #04BF8A;
+    height: 305px;
+    width: 288px;
+    border-radius: 30px;
+}
+
+.fondo__tarjetas h2{
+    font-size: 40px;
+    text-align: center;
+    background-color: #0f3a46;
+    color: #04BF8A;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 100px 20px;
+}
+
+.fondo__tarjetas svg path{
+    stroke: #0f3a46;
+    cursor: pointer;
+}
+
+.fondo__tarjetas svg path:hover{
+    stroke: #000;
+    transition: 0.5s;
+}
+
+.fondo__tarjetas__icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* breakpoints */
